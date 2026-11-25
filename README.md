@@ -1,22 +1,41 @@
 <div align="center">
 
-# 🩺 Explainable AI for Healthcare
+<img src="assets/banner.svg" width="100%" alt="Explainable AI for Healthcare — Predict. Explain. Understand.">
 
-### Predict. Explain. Understand.
+<br>
 
-**An explainable machine learning framework for multi-disease prediction and healthcare decision support.**
+[![Live application](https://img.shields.io/badge/EXPLORE-LIVE%20APPLICATION-009688?style=for-the-badge&logo=streamlit&logoColor=white)](https://explainable-ai-for-healthcare-user-509w.onrender.com/)
+[![Research](https://img.shields.io/badge/M.Sc.-Computer%20Science-6366F1?style=for-the-badge)](#-research-information)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-2563EB?style=for-the-badge)
-![SHAP](https://img.shields.io/badge/Explainable%20AI-SHAP-7C3AED?style=for-the-badge)
-![Research](https://img.shields.io/badge/M.Sc.-Research-00897B?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![SHAP](https://img.shields.io/badge/XAI-SHAP-8B5CF6?style=flat-square)
+![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00?style=flat-square)
 
-[![Live Demo](https://img.shields.io/badge/Launch-Live%20Demo-16A34A?style=for-the-badge&logo=render&logoColor=white)](https://explainable-ai-for-healthcare-user-509w.onrender.com/)
-
-[Overview](#-overview) • [Architecture](#-system-architecture) • [Results](#-experimental-results) • [Installation](#-getting-started) • [Research](#-research-information)
+[Overview](#-overview) · [Application](#-application-gallery) · [Architecture](#-system-architecture) · [Results](#-experimental-results) · [Setup](#-getting-started)
 
 </div>
+
+<table><tr>
+<td align="center" width="33%"><h2>90.16%</h2><b>Heart Disease</b><br>Random Forest</td>
+<td align="center" width="33%"><h2>97.14%</h2><b>Diabetes</b><br>CatBoost</td>
+<td align="center" width="33%"><h2>100%</h2><b>General Illness</b><br>Random Forest</td>
+</tr></table>
+
+<p align="center"><sub>Reported experimental accuracy • Not clinical validation</sub></p>
+
+## 🖥️ Application gallery
+
+<div align="center"><img src="assets/homepage.png" width="100%" alt="Actual Streamlit homepage"></div>
+
+<table><tr><td width="50%" align="center"><b>Heart Disease Prediction</b><br><img src="assets/heart-result.png" width="100%" alt="Heart prediction"></td><td width="50%" align="center"><b>Diabetes Prediction</b><br><img src="assets/diabetes-result.png" width="100%" alt="Diabetes prediction"></td></tr><tr><td align="center"><b>General Illness Prediction</b><br><img src="assets/general-result.png" width="100%" alt="General illness prediction"></td><td align="center"><b>BMI Calculator</b><br><img src="assets/bmi.png" width="100%" alt="BMI calculator"></td></tr></table>
+
+<details><summary><b>Explore SHAP waterfall visualization</b></summary>
+
+<img src="assets/shap-waterfall.png" width="85%" alt="SHAP waterfall explanation from dissertation">
+
+</details>
 
 ---
 
@@ -115,9 +134,7 @@ SHAP explains model behavior, not medical causality. The system supports both gl
 | General Illness | Symptom selection, predicted class and confidence score |
 | BMI Calculator | Basic body mass index assessment |
 
-<!-- Add your actual application screenshots here after uploading them to the repository.
-Example: ![Application homepage](assets/homepage.png)
--->
+
 
 ## 🛠️ Technology stack
 
